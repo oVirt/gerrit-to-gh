@@ -1,7 +1,7 @@
 # gerrit-to-gh
 This is a skeleton repository for moving from Gerrit to GitHub. Example README content below. Replace `PROJECTNAME` with your project repository and make sure the Bugzilla link exists if you choose to keep this piece in your README.
 
-There is an example `check-patch.yml` GitHub Action in the `.github/workflows` directory. It uses the `main` branch to execute Actions on pushes and pull requests. The example builds rpms on both CentOS Stream 8 and CentOS Stream 9 as explained in the [oVirt Developer Documentation](https://ovirt.org/develop/developer-guide/migrating_to_github.html).
+There is an example `check-patch.yml` GitHub Action in the `.github/workflows` directory. It uses the `main` branch to execute Actions on pushes and pull requests. *Note:* The example builds rpms on both CentOS Stream 8 and CentOS Stream 9 as explained in the [oVirt Developer Documentation](https://ovirt.org/develop/developer-guide/migrating_to_github.html). You can check the error logs in the `Actions` tab on GitHub. Delete this file when you no longer need it and create your own Actions file.
 
 ---
 
